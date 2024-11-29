@@ -8,7 +8,7 @@
                             <a href="home-travel.php"><img src="images/kunbis_logo_outline.webp" alt="Tourm" /></a>
                         </div>
                         <p class="footer-about_text">At Kunbis Unique Ventures, we are committed to providing exceptional services. Our goal is to deliver personalized experiences that meet your unique needs and aspirations.</p>
-                        <div class="footer-about_social gap-2 gap-lg-1" data-aos="fade-right" >
+                        <div class="footer-about_social gap-2 gap-lg-1" >
                             <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> 
                             <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                             <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> 
@@ -22,11 +22,11 @@
                     <div class="footer-nav" data-aos="fade-up" data-aos-duration="500">
                         <h3 class="footer_title">Quick Links</h3>
                         <ul class="footer-nav_menu">
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="https://kunbisunique.com/">Home</a></li>
                             <li><a href="about.php">About us</a></li>
-                            <li><a href="service.php">Our Service</a></li>
-                            <li><a href="contact.php">Terms of Service</a></li>
-                            <li><a href="contact.php">Tour Booking Now</a></li>
+                            <li><a href="#">Travels & Tour</a></li>
+                            <li><a href="#">Buy Car</a></li>
+                            <li><a href="#">Study in Canada</a></li>
                         </ul>
                     </div>
                 </div>
