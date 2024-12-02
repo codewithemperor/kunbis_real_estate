@@ -24,7 +24,7 @@
                         <ul class="footer-nav_menu">
                             <li><a href="https://kunbisunique.com/">Home</a></li>
                             <li><a href="about.php">About us</a></li>
-                            <li><a href="#">Travels & Tour</a></li>
+                            <li><a href="https://travel.kunbisunique.com/">Travels & Tour</a></li>
                             <li><a href="#">Buy Car</a></li>
                             <li><a href="#">Study in Canada</a></li>
                         </ul>
