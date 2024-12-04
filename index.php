@@ -22,7 +22,7 @@
 										<div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
 											<h2>Discover Land Ready for Your Vision</h2>
 											<p class="mb-5">Unlock potential with premium land locations, ideal for creating homes, businesses, or investment properties. Start building your future today.</p>
-											<p><a href="#" class="btn btn-primary px-5 py-3">Explore More <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+											<p><a href="lands.php" class="btn btn-accent px-5 py-3">Explore More <span class="ion ion-ios-arrow-round-forward"></span></a></p>
 										</div>
 									</div>
 								</div>
@@ -40,7 +40,7 @@
 										<div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
 											<h2>Move-In Ready Properties</h2>
 											<p class="mb-5">Find expertly crafted properties ready to welcome you. Our range of homes and buildings are designed for immediate occupancy.</p>
-											<p><a href="#" class="btn btn-primary px-5 py-3">View Properties <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+											<p><a href="properties.php" class="btn btn-accent px-5 py-3">View Properties <span class="ion ion-ios-arrow-round-forward"></span></a></p>
 										</div>
 									</div>
 								</div>
@@ -58,7 +58,7 @@
 										<div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
 											<h2>Prime Locations for Every Need</h2>
 											<p class="mb-5">Choose from a selection of prime properties in key locations, each offering excellent access and potential for growth.</p>
-											<p><a href="#" class="btn btn-primary px-5 py-3">Find Out More <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+											<p><a href="properties.php" class="btn btn-accent px-5 py-3">Find Out More <span class="ion ion-ios-arrow-round-forward"></span></a></p>
 										</div>
 									</div>
 								</div>
@@ -76,7 +76,7 @@
 										<div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
 											<h2>Land & Property Solutions Tailored to You</h2>
 											<p class="mb-5">Our team is dedicated to helping you find the ideal land or property for your personal or business needs, making ownership simple and straightforward.</p>
-											<p><a href="#" class="btn btn-primary px-5 py-3">Contact Us <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+											<p><a href="lands.php" class="btn btn-accent px-5 py-3">Contact Us <span class="ion ion-ios-arrow-round-forward"></span></a></p>
 										</div>
 									</div>
 								</div>
@@ -173,7 +173,7 @@
 													<div class="col-md d-flex">
 														<div class="form-group d-flex w-100 border-0">
 															<div class="form-field w-100 align-items-center d-flex">
-																<input type="submit" value="Search" class="align-self-stretch form-control btn btn-primary">
+																<input type="submit" value="Search" class="align-self-stretch form-control btn btn-accent">
 															</div>
 														</div>
 													</div>
@@ -247,7 +247,7 @@
 													<div class="col-md d-flex">
 														<div class="form-group d-flex w-100 border-0">
 															<div class="form-field w-100 align-items-center d-flex">
-																<input type="submit" value="Search" class="align-self-stretch form-control btn btn-primary">
+																<input type="submit" value="Search" class="align-self-stretch form-control btn btn-accent">
 															</div>
 														</div>
 													</div>

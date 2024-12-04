@@ -2,10 +2,10 @@
 
 	"use strict";
 
-	AOS.init({
-		ease: 'slide',
-		once: true
-	});
+	// AOS.init({
+	// 	ease: 'slide',
+	// 	once: true
+	// });
 
 	var slider = function(){
 

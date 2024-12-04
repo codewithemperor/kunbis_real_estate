@@ -23,10 +23,10 @@
                         <h3 class="footer_title">Quick Links</h3>
                         <ul class="footer-nav_menu">
                             <li><a href="https://kunbisunique.com/">Home</a></li>
-                            <li><a href="about.php">About us</a></li>
-                            <li><a href="https://travel.kunbisunique.com/">Travels & Tour</a></li>
-                            <li><a href="#">Buy Car</a></li>
-                            <li><a href="#">Study in Canada</a></li>
+                            <li><a href="https://kunbisunique.com/about.php">About us</a></li>
+                            <li><a href="https://travel.kunbisunique.com/tour.php">Travels & Tour</a></li>
+                            <li><a href="https://travel.kunbisunique.com/flight-itinerary.php">Flight Reservations</a></li>
+                            <li><a href="https://travel.kunbisunique.com/study-in-canada.php">Study in Canada</a></li>
                         </ul>
                     </div>
                 </div>
@@ -126,5 +126,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/tiny-slider.js"></script>
 <script src="js/glightbox.min.js"></script>
-<script src="js/aos.js"></script>
+<!-- <script src="js/aos.js"></script> -->
 <script src="js/main.js"></script>

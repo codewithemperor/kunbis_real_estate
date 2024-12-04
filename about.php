@@ -88,13 +88,7 @@
         <!-- Real Estate Section -->
 
         <!-- Our services -->
-        <section class="service" style="padding: 7em 0;">
-            <div class="col-12 text-center heading-section" data-aos="fade-up" data-aos-duration="600">
-                <span class="subheading">Explore More with Us</span>
-                <h2 class="mb-5">Additional Offerings</h2>
-            </div>
-
-        </section>
+        <?php include './includes/additional-service.php'?>
         <!-- End our services -->
 
         <!-- Start FAQ -->
@@ -136,6 +130,53 @@
                   el: ".swiper-pagination",
                 },
               });
+
+              $(document).ready(function () {
+                $(".categorySlider").each(function () {
+                    const translationFactor = 0.1,  // Controls the vertical translation effect
+                          rotationFactor = 0.01;    // Controls the rotation effect
+
+                    // Initialize Swiper
+                    new Swiper(".categorySlider", {
+                        slidesPerView: 4,
+                        spaceBetween: 60,
+                        centeredSlides: true,
+                        loop: true,
+                        grabCursor: true,
+                        // autoplay: {
+                        //     delay: 3000,  // Adjust autoplay speed (milliseconds)
+                        //     disableOnInteraction: false,  // Keep autoplay active after user interaction
+                        // },
+                        breakpoints: {
+                            300: { slidesPerView: 1, spaceBetween: 30 },
+                            600: { slidesPerView: 2, spaceBetween: 30 },
+                            768: { slidesPerView: 3, spaceBetween: 30 },
+                            1024: { slidesPerView: 4, spaceBetween: 40 },
+                            1280: { slidesPerView: 4, spaceBetween: 60 },
+                        },
+                        pagination: {
+                          el: ".swiper-pagination",
+                        },
+                    });
+
+                    // Animation function to adjust translation and rotation
+                    (function animateCards() {
+                        requestAnimationFrame(animateCards);  // Recursive call for smooth animation
+
+                        document.querySelectorAll(".single").forEach((element) => {
+                            const rect = element.getBoundingClientRect(),
+                                  centerOffset = 0.5 * window.innerWidth - (rect.x + 0.5 * rect.width),
+                                  verticalShift = Math.max(Math.abs(centerOffset) * translationFactor - rect.width * translationFactor, 0),
+                                  originPoint = centerOffset < 0 ? "left top" : "right top";
+
+                            // Apply transform styles for translation and rotation
+                            element.style.transform = `translate(0, ${verticalShift}px) rotate(${centerOffset * -rotationFactor}deg)`;
+                            element.style.transformOrigin = originPoint;
+                        });
+                    })();
+                });
+            });
+
         </script>
     </body>
 </html>
